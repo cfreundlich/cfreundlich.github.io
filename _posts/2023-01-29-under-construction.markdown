@@ -7,8 +7,8 @@ categories: personal
 
 While under construction, you can find out more about me from my 
 - [LinkedIn][linkedin] profile
-- [Stack Exchange Profile][stack-x]
-- [Google Scholar Profile][g-scholar]
+- [Stack Exchange][stack-x] profile
+- [Google Scholar][g-scholar] profile
 
 [linkedin]: https://www.linkedin.com/in/charlesfreundlich/
 [stack-x]:   http://stackexchange.com/users/4344195/charles-f
