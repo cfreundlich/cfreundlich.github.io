@@ -11,17 +11,19 @@ Let us begin by remembering when linear systems have solutions:
 - $$f(x) = Ax$$ can be solved if $$\text{rank} A = n.$$
 - $$f(x) = Ax  + b$$ can be solved also if  $$\text{rank} A = n.$$
 
-Now take any differentiable function $$f :\mathbf{R}^n \to \mathbf{R}^n$$, that is, 
+For some function $$f :\mathbf{R}^n \to \mathbf{R}^n$$, if there exists
 
-$$\exists \mathbf{D} f_{x_0} \in L(\mathbf{R}^n , \mathbf{R}^n) \; \text{ such that } f(x) - f(x_0) - \mathbf{D} f_{x_0} (x - x_0)$$ is $$o(\|x-x_0\|),$$ where $$L(\mathbf{R}^n , \mathbf{R}^n) $$ is the set of linear functions. In other words, 
+$$\mathbf{D} f_{x_0} \in L(\mathbf{R}^n , \mathbf{R}^n) \; \text{ such that } f(x) - f(x_0) - \mathbf{D} f_{x_0} (x - x_0)$$ is $$o(\|x-x_0\|),$$ where $$L(\mathbf{R}^n , \mathbf{R}^n) $$ is the set of linear functions. In other words, 
 
 $$
 \lim_{x \to x_0} \frac{f(x)-f(x_0) - \mathbf{D} f_{x_0} (x-x_0)}{\|x-x_0\| }= 0.
 $$
 
+This symbol, $$\mathbf{D} f_{x}$$, is the "derivative of $$f$$ at $$x$$."
+
 The main idea of implicit functions is that differentiable functions behave locally like linear maps, and so if we can describe geometries by differentiable functions, we might be able to stitch them together and say something globally about the behaviour of a nonlinear system.
 
-First we need to pause and get some definitions straight:
+I have a lot more to say about this, but first we need to pause and get some definitions straight:
 
 # Little "oh" notation
 A function $$g(x-x_0)$$ is "little oh" of a norm, say, $$\|x-x_0\|$$ if and only if
