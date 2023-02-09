@@ -26,10 +26,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: thefreund
 github_username:  cfreundlich
+# linkedin_username: charlesfreundlich
+
 
 plugins:
 # - jekyll-feed
-- jekyll-paginate
+# - jekyll-paginate
 - jekyll-seo-tag
 - jekyll-sitemap
 # - minimal-mistakes-jekyll
@@ -39,9 +41,9 @@ theme: minima
 
 # Site settings
 permalink: /:title/
-markdown: kramdown
-paginate: 5
-paginate_path: "/:num/"
+# markdown: kramdown
+# paginate: 5
+# paginate_path: "/:num/"
 date_format: "%b %-d, %Y"
 
 # http://haixing-hu.github.io/programming/2013/09/20/how-to-use-mathjax-in-jekyll-generated-github-pages/
