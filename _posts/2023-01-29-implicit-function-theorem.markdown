@@ -5,25 +5,41 @@ date:   2023-01-29 08:39:57 -0800
 categories: personal
 
 ---
-The following is something I learned from Mark Stern about a very important theorem I want to share with you.
+
+
+
+Trying to solve $$y=f(x)$$ for $$x$$ is a fundamental objective that applies to all branches of mathematics.
+For example, [here is an answer on stack exchange](https://math.stackexchange.com/questions/4496360/how-do-we-know-that-some-system-of-equations-doesnt-have-an-analytical-solutio/4498479#4498479) I gave to this effect in machine learning.
+
+When can we find $$x$$ given $$y$$, even if $$f^{-1}$$ does not exist?  
+
+The Implicit Function Theorem gives us the basic tools needed to break down this problem into manageable chunks.
+It lets us "linearize" very hard problems, and it gives us the basic tools needed to do differential geometry.
+
+The following are my notes from Mark Stern's Basic Analysis lectures at Duke University.
+I have added my comments and explanations to the notes to hopefully motivate them in a new style.
+Please, let me know if you have questions via my email at the bottom of the page.
+
+# Linear Systems
 
 Let us begin by remembering when linear systems have solutions:
 - $$f(x) = Ax$$ can be solved if $$\text{rank} A = n.$$
 - $$f(x) = Ax  + b$$ can be solved also if  $$\text{rank} A = n.$$
 
-For some function $$f :\mathbf{R}^n \to \mathbf{R}^n$$, if there exists
+<!-- 
+Now consider some arbitrary function $$f :\mathbf{R}^n \to \mathbf{R}^n$$. 
 
-$$\mathbf{D} f_{x_0} \in L(\mathbf{R}^n , \mathbf{R}^n) \; \text{ such that } f(x) - f(x_0) - \mathbf{D} f_{x_0} (x - x_0)$$ is $$o(\|x-x_0\|),$$ where $$L(\mathbf{R}^n , \mathbf{R}^n) $$ is the set of linear functions. In other words, 
+If there exists -->
+
+<!-- $$\mathbf{D} f_{x_0} \in L(\mathbf{R}^n , \mathbf{R}^n) \; \text{ such that } f(x) - f(x_0) - \mathbf{D} f_{x_0} (x - x_0)$$ is $$o(\|x-x_0\|),$$ where $$L(\mathbf{R}^n , \mathbf{R}^n) $$ is the set of linear functions, in other words, 
 
 $$
 \lim_{x \to x_0} \frac{f(x)-f(x_0) - \mathbf{D} f_{x_0} (x-x_0)}{\|x-x_0\| }= 0.
 $$
 
-This symbol, $$\mathbf{D} f_{x}$$, is the "derivative of $$f$$ at $$x$$."
+Then we can say  symbol, $$\mathbf{D} f_{x}$$, is the "derivative of $$f$$ at $$x$$." -->
 
-The main idea of implicit functions is that differentiable functions behave locally like linear maps, and so if we can describe geometries by differentiable functions, we might be able to stitch them together and say something globally about the behaviour of a nonlinear system.
-
-I have a lot more to say about this, but first we need to pause and get some definitions straight:
+Before I get into nonlinear systems, a brief note on notation:
 
 # Little "oh" notation
 A function $$g(x-x_0)$$ is "little oh" of a norm, say, $$\|x-x_0\|$$ if and only if
@@ -42,13 +58,11 @@ $$ \frac{f(x-x_0)}{\|x-x_0\|}$$ is bounded in a neighborhood of $$x_0.$$
 
 We'll need that later.
 
-# All of math
-Trying to solve $$y=f(x)$$ for $$x$$ is an extremely general objective that applies to all branches of mathematics.
-[Here is an answer on stack exchange](https://math.stackexchange.com/questions/4496360/how-do-we-know-that-some-system-of-equations-doesnt-have-an-analytical-solutio/4498479#4498479) I gave to this effect in machine learning.
 
-Anyway, if $$f$$ is some nonlinear function, so first we hope that we can at least do so locally.
-Moreover, we can only do so locally if the function is one-to-one in that local neighbordhood.
-The Implicit Function Theorem and various corollaries allow us to do that, and even get some additional local results with the derivative $$\mathbf{D} f_{x_0}$$ is not invertible (or nonsquare).
+Returning to the Implicit Function Theorem, if $$f$$ is some nonlinear function, we might be interested in inverting all or part of it.
+Usually, we can only do so locally, and we can only do that if the function is one-to-one in that local neighbordhood.
+The Implicit Function Theorem and various corollaries allow us to do that.
+It givus us some additional local results even when the derivative $$\mathbf{D} f_{x_0}$$ is not invertible (or nonsquare).
 
 # Infinite dimensions
 Implicit in our discussion above is that for a bounded and invertible linear map $$\mathbf{D} f_x,$$ i.e., a square matrix, there exists a bounded inverse.
