@@ -13,6 +13,6 @@ When can we find $$x$$ given $$y$$, even if $$f^{-1}$$ does not exist?
 The Implicit Function Theorem gives us the basic tools needed to break down this problem into manageable chunks.
 It gives us the basic tools needed to do differential geometry.
 
-Here are [my notes from Mark Stern's Basic Analysis lectures at Duke University](../files/diff-forms.pdf).
+Here are [my notes from Mark Stern's Basic Analysis lectures at Duke University](../assets/diff-forms.pdf).
 I have added my comments and explanations to the notes to hopefully motivate them in a new style.
 Please, let me know if you have questions via my email at the bottom of the page.
