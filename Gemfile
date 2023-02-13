@@ -7,3 +7,4 @@ gem 'webrick'
 # Check github versions: https://pages.github.com/versions/
 gem "github-pages", group: :jekyll_plugins
 gem "jekyll-include-cache", group: :jekyll_plugins
+gem 'jekyll-toc', group: jekyll_plugins
