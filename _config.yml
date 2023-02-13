@@ -35,6 +35,7 @@ plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
 # - minimal-mistakes-jekyll
+- jekyll-toc
 
 # remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 theme: minima
