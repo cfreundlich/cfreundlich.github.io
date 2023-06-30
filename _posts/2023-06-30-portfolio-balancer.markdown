@@ -15,17 +15,19 @@ With my daughter sick, requiring me to isolate with her away from my newborn son
 
 Portfolio Balancer uses a simple user-supplied CSV data file to guide portfolio rebalancing, helping users attain optimal returns with two strategic approaches: 'Hard Rebalance' and 'Try to Never Sell'. 
 
-- The 'Hard Rebalance' strategy suggests selling assets that have appreciated to realize capital gains, bringing your portfolio closer to an optimal equal value distribution across assets, despite potential tax liabilities. 
+- The 'Hard Rebalance' strategy suggests buying assets that have depreciated (or not appreciated as fast as other assets) and selling assets that have appreciated more than others, bringing your portfolio closer to an optimal equal value distribution across assets, despite potential tax liabilities. 
 
-- On the other hand, the 'Try to Never Sell' strategy advocates buying assets that have depreciated, enhancing the overall portfolio value without realizing gains tax. It may not lead to a completely equalized portfolio distribution, but it avoids potential tax implications.
+- On the other hand, the 'Try to Never Sell' strategy will strongly prefer to buy assets that have depreciated (or not appreciated as fast as other assets), enhancing the overall portfolio value without realizing gains tax. It may not lead to a completely equalized portfolio distribution, but it avoids potential tax implications of the hard rebalance.
 
-A key feature of Portfolio Balancer is that it offers users the flexibility to specify an amount of cash they wish to invest or withdraw, allowing the software to reallocate funds based on the selected strategy.
+A key feature of both strategies supported by the Portfolio Balancer is that it offers users the flexibility to specify an amount of cash they wish to invest or withdraw, allowing the software to reallocate funds based on the selected strategy.
+
+I invite you to dive into [the code](https://github.com/cfreundlich/portfolio-balancer/tree/main/src/pbal) to understand exactly how these strategies make their suggestions.
 
 ## Learning from the Development Process
 
-Throughout the process of building this project, I learnt to master the Python `argparse` package for creating an easy-to-use command line interface. I discovered the use of `project.toml` for easy binary creation, finding it more efficient than the traditional `setup.py`. 
+Throughout the process of building this project, I discovered the use of `project.toml` for easy binary creation, finding it more efficient than the traditional `setup.py`. 
 
-However, not all aspects of the development process were smooth sailing. The interaction with Interactive Brokers' (IBKR) Client Portal API proved challenging. While the IBKR web application functioned well for downloading CSV files, their Client Portal, a local app for facilitating API calls, proved to be less user-friendly. It's authentication system and redirects posed significant challenges, proving to be problematic with tools like CURL, Python's request package, or even when trying to log in through a local host browser.
+However, not all aspects of the development process were smooth sailing. The interaction with Interactive Brokers' (IBKR) Client Portal API proved challenging. While the IBKR web application functioned well for downloading CSV files, their Client Portal, a local app for facilitating API calls, proved to be less user-friendly. It's authentication system and redirects posed significant challenges, proving to be problematic with tools like cURL, Python's request package, or even when trying to log in through a local host browser.
 
 ## A Tool for the Individual Investor
 
