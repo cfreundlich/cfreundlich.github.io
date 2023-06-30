@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Democratizing Investing: Introducing Portfolio Balancer"
-date:   2023-06-30 12:36:57 -0800
+date:   2023-06-29 12:36:57 -0800
+toc: true
 ---
 
 # Democratizing Investing: Introducing Portfolio Balancer
