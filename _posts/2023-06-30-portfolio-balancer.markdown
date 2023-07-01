@@ -7,7 +7,7 @@ toc: true
 
 # Democratizing Investing: Introducing Portfolio Balancer
 
-As financial markets evolve and technology accelerates, it's high time that the benefits once enjoyed exclusively by the ultra-wealthy and hedge funds become accessible to every individual investor. Thus was born the open source project - Portfolio Balancer. It's a tool created with a vision to bring financial empowerment to individuals, enabling them to benefit from efficient investment strategies and tax breaks traditionally enjoyed by the elite few.
+As financial markets evolve and technology accelerates, it's high time that the benefits once enjoyed exclusively by the ultra-wealthy and hedge funds become accessible to every individual investor. Thus was born the open source project - [Portfolio Balancer](https://github.com/cfreundlich/portfolio-balancer/). It's a tool created with a vision to bring financial empowerment to individuals, enabling them to benefit from efficient investment strategies and tax breaks traditionally enjoyed by the elite few.
 
 With my daughter sick, requiring me to isolate with her away from my newborn son, I found the time and motivation to build this tool that goes beyond the usual frenzy of stock picking and gambling-esque investing. Portfolio Balancer instead brings a calculated, data-oriented approach to the forefront of individual investing strategy. 
 
@@ -34,6 +34,3 @@ However, not all aspects of the development process were smooth sailing. The int
 Portfolio Balancer truly shines when used with IBKR's margin trading accounts. Here, individual investors can access low-cost overnight rates, previously a privilege of hedge funds and the richest people. Interestingly, the interest paid on such margin loans is tax-deductible, giving an additional tax benefit to small-scale investors.
 
 The creation of Portfolio Balancer is not just the birth of an open-source project but an attempt to democratize investing, making the art of investment accessible to everyone, from the novice to the experienced trader. It signals a shift towards a more stable and calculated investing strategy, making wealth creation not just a privilege of the rich, but a right of every individual.
-
-# Getting Started
-Clone [the github project](https://github.com/cfreundlich/portfolio-balancer/), `cd` to the root directory, and follow the directions in the README.
