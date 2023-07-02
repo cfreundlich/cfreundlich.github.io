@@ -32,15 +32,33 @@ Trying to time the market, or catch the falling knife, does not work (though I h
 
 ## Portfolio Balancer's Strategy
 
-Portfolio Balancer walks users through my investment strategy beginning with a simple user-supplied CSV data file to guide portfolio rebalancing. The software helps users attain optimal returns with two strategic approaches: 'Hard Rebalance' and 'Try to Never Sell'. 
+Portfolio Balancer's currently supported strategies are predicated on the assumption that the investor wants equal distribution of value across all assets in their portfolio.
+
+### Setting a target
+Users can pick whatever collection of assets they want, but the general idea is that they span a broad array of sectors and market capitalizations using low cost ETFs, for example, one may want to target 10% allocation to each of these ten ETFs:
+  1. FTEC
+  1. VAW
+  1. VCR
+  1. VDC
+  1. VHT
+  1. VIS
+  1. VNQ
+  1. VOX
+  1. VPU
+  1. VSMAX
+
+Having a broad array of sector and market cap coverage is a simple way to minimize risk of any individual company or sector having a crisis.
+It avoids over-exposure on any area of the economy, and likewise avoids stock picking.
+ 
+### Rebalancing Toward the Target
+
+The software assumes the user has very recently downloaded their current portfolio positions as a CSV file. Then, the user has two options for how they want to software to suggest trades that would rebalance their portfolio toward a target of equal distribution of assets: 'Hard Rebalance' and 'Try to Never Sell.'
 
 ### Hard Rebalance
-The 'Hard Rebalance' strategy suggests buying assets that have depreciated (or not appreciated as fast as other assets) and selling assets that have appreciated more than others, bringing your portfolio closer to an optimal equal value distribution across assets, despite potential tax liabilities. 
+The 'Hard Rebalance' strategy suggests buying assets that have depreciated (or not appreciated as fast as other assets) and selling assets that have appreciated more than others, bringing your portfolio to a perfectly equal value distribution across assets, despite potential tax liabilities if there were unrealized gains. 
 
 ### Try to Never Sell
-On the other hand, the 'Try to Never Sell' strategy will strongly prefer to buy assets that have depreciated (or not appreciated as fast as other assets), enhancing the overall portfolio value without realizing gains tax. It may not lead to a completely equalized portfolio distribution, but it avoids potential tax implications of the hard rebalance. One way to think of this strategy is that it raises the floor of your portfolio, buying low incrementally.
-
-This is the default strategy for the CLI.
+On the other hand, the 'Try to Never Sell' strategy will only buy assets that have depreciated (or not appreciated as fast as other assets), approaching the target distribution without realizing gains tax. It may not lead to a completely equalized portfolio distribution, but it avoids potential tax implications of the hard rebalance. One way to think of this strategy is that it raises the floor of your portfolio, buying low incrementally.
 
 ### Providing flexibility by factoring in Deposits and Withdrawals
 A key feature of both strategies supported by the Portfolio Balancer is that they offer users the flexibility to specify an amount of cash they wish to invest or withdraw, allowing the software to reallocate funds accordingly. 
