@@ -5,31 +5,33 @@ date:  2023-06-29 12:36:57 -0800
 toc: true
 ---
 
-For the most part, the the tools once reserved exclusively for the ultra-wealthy are today accessible to common investors. There's no longer a need for human stock brokers or "wealth managers" that siphon 1% of one's savings every year. In this blog post, I will promote a cold, calculated approach to investing and provide a command line interface (CLI) that will tell individual investors exactly how to execute it.
+Today, common investors have access to a complete set of investing tools. There's no longer a need for human stock brokers or "wealth managers" that siphon 1% of one's savings every year. 
+
+In this blog post, I will promote a fundamental approach to using these tools and introduce a command line interface (CLI) that will help individual investors exactly how to execute it.
 
 ## Introducing the Portfolio Balancer
 
-I've been a proponent of boring, low cost ETF-driven investing since I started investing when I was in my 20s. For many investors, simply picking a Vangaurd target retirement date fund, parking all their savings in that, and not thinking about it until they approach that date is a fine strategy. I personally do not think target date funds offer as broad exposure to various sectors and market caps as I would like, increasing short term risk. Additionally, investing in one and only one fund limits one's ability to exploit market fluctuations by "buying low and selling high."
+For many investors, simply picking a Vangaurd target retirement date fund, parking all their savings in that, and not thinking about it until they approach that date is a fine strategy. I personally do not think these funds offer as broad exposure to various sectors and market caps as I would like. I also think investing in one and only one fund limits one's ability to exploit market fluctuations by buying low and selling high.
 
-On the other hand, marketing departments of most banks and brokerages push investors toward a frenzy of stock picking. They gamify investing because higher volumes means higher commissions and profits for them. I am by no means claiming there is something inherently wrong with gambling, whether one does it with slot machines, stocks, or crypto, as long as it is done with disposable income. I am claiming that such "fun" approaches to investing are not sound strategies. Professional humans [consistently lose to monkeys](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwitprKq--7_AhUEiO4BHU_fAVUQFnoECA4QAQ&url=https%3A%2F%2Fwww.wsj.com%2Farticles%2FSB991681622136214659&usg=AOvVaw1h5PZgbOQdKpsBhkcSi7hF&opi=89978449) in this game. I like winning.  Don't you?
+Most investors instead try to pick stocks. This is unsurprising because the marketing departments of banks and brokerages exist in order to push investors toward a frenzy of stock picking. They game-ify investing because higher volumes means higher commissions and profits for them. I am by no means claiming there is something inherently wrong with this, essentially gambling, whether one does it with slot machines, stocks, or crypto, as long as it is done with disposable income. I am claiming that such fun approaches to investing are not sound strategies. Professional humans [consistently lose to monkeys](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwitprKq--7_AhUEiO4BHU_fAVUQFnoECA4QAQ&url=https%3A%2F%2Fwww.wsj.com%2Farticles%2FSB991681622136214659&usg=AOvVaw1h5PZgbOQdKpsBhkcSi7hF&opi=89978449) in this game. I prefer to win.
 
-With target date funds not providing enough diversity or flexibility for me, and stock-picking not a viable strategy for my family's savings, I give you [Portfolio Balancer](https://github.com/cfreundlich/portfolio-balancer/).
+With target date funds not providing enough diversity or flexibility for me, and stock-picking not a viable strategy for my family's savings, I propose hand-crafting as diverse portfolio. I will describe how to do this, and why the software I am providing makes this easier, after a few brief remarks:
 
 #### Remark: Margin Accounts
-Margin trading is particularly rigged in favor of the rich: Interest paid on such margin accounts is tax-deductible in Schedule A of the Form 1040, which acts like a discount on the interest equal to one's Federal tax bracket; the more the individual earns, the larger the tax break. Obviously, there is a big part of me that would like to point out that this is a tax loophole created by the rich for the rich. I simply shine a spotlight on it. Sunlight is often the best sanitizer.
+Margin trading benefits from a tax code that is rigged in favor of the rich: Interest paid on such margin accounts is tax-deductible in Schedule A of the Form 1040, which acts like a discount on the interest equal to one's Federal tax bracket; the more the individual earns, the larger the tax break. But that doesn't mean middle class people would not or should not benefit from exploiting this tax loophole
 
-If you're not comfortable with this kind of morality, note that the product described in this post works well for unleveraged brokerage accounts. You are also free to leverage your assets with margin accounts and not deduct the interest, if you want to maintain the moral high ground. Either way, I recommend talking to a tax advisor.
+If you're not comfortable with this, please note that the product described in this post works for unleveraged brokerage accounts. You are also free to maintain the moral high ground and leverage your assets with margin accounts and not deduct the interest.
 
-In the context of this post, leveraging what you have and plowing the margins into these low-risk strategies is a boost on long term returns. That is the only benefit.  The cost of this benefit is the risk of a margin call. For this reason, I recommend starting very slow with margin trading, borrowing no more than 20% of your assets. This will provide a large enough cushion to avoid a margin call in even an apocolyptic scenario, but talk to a feduciary certified financial advisor (which I am not) if you have questions.
+In the context of this post, leveraging what you have and plowing the margins into these low-risk strategies is a multiplier for long-term returns. That is the only benefit.  The cost is the risk of a margin call. I recommend starting very slow with margin trading, borrowing no more than 20% of your assets. This will provide a large enough cushion to avoid a margin call in even an apocalyptic scenario, but talk to a fiduciary certified financial advisor (which I am not) if you have questions.
 
 For me, I am by no means ultra-wealthy, but I am happy with [IBKR's low cost margin trading accounts](https://www.interactivebrokers.com/en/index.php?f=44427&gclid=EAIaIQobChMIicWVrfru_wIVJQ2tBh2P6gkyEAAYASAAEgI6FPD_BwE).
-IBKR offers the cheapest margin rates I could find. IBKR does not pay me anything to promote their products.
+IBKR offers the cheapest margin rates I could find (IBKR does not pay me anything to promote their products).
 
 #### Remark: Trying to Time the Market
-Trying to time the market, or catch the falling knife, does not work (though I have succumbed to the urge many times). Similar to stock picking, whatever idea you had, an insider already had it. It is priced into the market. Having said that, it is up to you how often to balance your portfolio, but I typically do it once per quarter, or randomly. I also recommend not looking at your portfolio until you go to rebalance it to avoid making emotional decisions.
+Trying to time the market does not work (though I have succumbed to the urge many times). Similar to stock picking, whatever idea you had, an insider already had it. It is priced into the market. Having said that, it is up to you how often to balance your portfolio, but I typically do it once per quarter or less. I also recommend not looking at your portfolio until you go to rebalance it to avoid making emotional decisions.
 
 #### Remark: Retirement Accounts
-Clearly, I don't believe that timing the market or stocking picking are reliable strategies, so I don't offer any advice for short term investing. The strategies I am promoting here are long-term (more than 10 years). As such, investors generally should take advantage of tax-advantaged retirement accounts first before adopting the strategies promoted in this post. If you are not familiar with accounts like an IRA, 401(k), or HSA, [educate yourself](https://www.nerdwallet.com/article/investing/retirement-investments-beginners-guide), then come back to this post.
+Clearly, I don't believe that timing the market or stocking picking are reliable strategies, so I don't offer any advice for short term investing. The strategies I am promoting here are long-term (more than 10 years). As such, investors generally should take advantage of tax-advantaged retirement accounts first before adopting the strategies promoted in this post. If you are not familiar with accounts like an IRA, 401(k), HSA, or 529s, [educate yourself](https://www.nerdwallet.com/article/investing/retirement-investments-beginners-guide), then come back to this post.
 
 ## Portfolio Balancer's Strategies
 [Portfolio Balancer](https://github.com/cfreundlich/portfolio-balancer/)'s currently supported strategies are predicated on the assumption that the investor wants equal distribution of value across all assets in their portfolio.
@@ -48,16 +50,23 @@ Investors can pick whatever collection of assets they want, but the general idea
   1. VSMAX
 
 Having a broad array of sector and market cap coverage is a simple way to minimize risk of any individual company or sector having a crisis. It avoids over-exposure on any area of the economy, and likewise avoids stock picking.
+
+If you inspect the distribution of assets in a target date retirement fund, you will notice less diversity in equity markets than the list of ten that I proposed above.  The list above is by no means complete (notably is lacks exposure to emerging markets or any fixed income).
  
 ### Rebalancing Toward the Target
-
 The software assumes the user has very recently downloaded their current portfolio positions as a CSV file. Then, the user has two options for how they want to software to suggest trades that would rebalance their portfolio toward a target of equal distribution of assets: 'Hard Rebalance' and 'Try to Never Sell.'
 
 ### Hard Rebalance
 The 'Hard Rebalance' strategy suggests buying assets that have depreciated (or not appreciated as fast as other assets) and selling assets that have appreciated more than others, bringing your portfolio to a perfectly equal value distribution across assets, despite potential tax liabilities if there were unrealized gains. 
 
+#### Remark: Linear Algebra a Work!
+The Hard Rebalance strategy is the solution to a linear system of equations.
+In particular, if the portfolio as *n* assets, we wish to change the value of each by executing trades.  Let *x<sub>i</sub>* denote the amount we change the *i-th* asset. Let *c* denote the amount cash the investor wants to add (or subtract if withdraw). Then *<**1**, x>=c* constrains our choice not to over- or under-spend. Let *v* denote the total initial value of the portfolio.  Then, to hard rebalance the assets, we desire that *p<sub>i</sub> + x<sub>i</sub> = (v+c)/n*, where *p<sub>i</sub>* is the initial value of the *i-th* asset.  In the code, I rearranged these constraints to formulate a linear system of the form *Ax=b*, and the code solves for *x*.
+
 ### Try to Never Sell
-On the other hand, the 'Try to Never Sell' strategy will only buy assets that have depreciated (or not appreciated as fast as other assets), approaching the target distribution without realizing gains tax. It may not lead to a completely equalized portfolio distribution, but it avoids potential tax implications of the hard rebalance. One way to think of this strategy is that it raises the floor of your portfolio, buying low incrementally.
+The 'Try to Never Sell' strategy will only buy assets that have depreciated (or not appreciated as fast as other assets), approaching the target distribution without realizing gains tax. It may not lead to a completely equalized portfolio distribution, but it avoids potential tax implications of the hard rebalance. 
+
+One way to think of this strategy is that it raises the floor of your portfolio, buying low incrementally.  The implementation in the code uses a MinHeap to execute the flood fill.
 
 ### Providing flexibility by factoring in Deposits and Withdrawals
 A key feature of both strategies supported by the Portfolio Balancer is that they offer users the flexibility to specify an amount of cash they wish to invest or withdraw, allowing the software to reallocate funds accordingly. 
