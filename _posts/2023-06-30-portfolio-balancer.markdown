@@ -1,26 +1,26 @@
 ---
 layout: post
-title: "Democratizing Investing: Introducing Portfolio Balancer"
+title: "Introducing Portfolio Balancer"
 date:  2023-06-29 12:36:57 -0800
 toc: true
 ---
 
 Today, common investors have access to a complete set of investing tools. There's no longer a need for human stock brokers or "wealth managers" that siphon 1% of one's savings every year. 
 
-In this blog post, I will promote a fundamental approach to using these tools and introduce a command line interface (CLI) that will help individual investors exactly how to execute it.
+In this blog post, I will promote a fundamentals-based approach to using these existing tools, and I will introduce a new tool that will help individual investors execute it.
 
 ## Introducing the Portfolio Balancer
 
 For many investors, simply picking a Vangaurd target retirement date fund, parking all their savings in that, and not thinking about it until they approach that date is a fine strategy. I personally do not think these funds offer as broad exposure to various sectors and market caps as I would like. I also think investing in one and only one fund limits one's ability to exploit market fluctuations by buying low and selling high.
 
-Most investors instead try to pick stocks. This is unsurprising because the marketing departments of banks and brokerages exist in order to push investors toward a frenzy of stock picking. They game-ify investing because higher volumes means higher commissions and profits for them. I am by no means claiming there is something inherently wrong with this, essentially gambling, whether one does it with slot machines, stocks, or crypto, as long as it is done with disposable income. I am claiming that such fun approaches to investing are not sound strategies. Professional humans [consistently lose to monkeys](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwitprKq--7_AhUEiO4BHU_fAVUQFnoECA4QAQ&url=https%3A%2F%2Fwww.wsj.com%2Farticles%2FSB991681622136214659&usg=AOvVaw1h5PZgbOQdKpsBhkcSi7hF&opi=89978449) in this game. I prefer to win.
+Most investors instead try to pick stocks. This is unsurprising because the marketing departments of banks and brokerages exist in order to push investors toward a frenzy of stock picking. They game-ify investing because higher volumes means higher commissions and profits for them. I am by no means claiming there is something inherently wrong with this, essentially gambling, whether one does it with slot machines, stocks, or crypto, as long as it is done with disposable income. I am claiming that such fun approaches to investing are not sound strategies. Professional humans [consistently lose to monkeys](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwitprKq--7_AhUEiO4BHU_fAVUQFnoECA4QAQ&url=https%3A%2F%2Fwww.wsj.com%2Farticles%2FSB991681622136214659&usg=AOvVaw1h5PZgbOQdKpsBhkcSi7hF&opi=89978449) in this game.
 
-With target date funds not providing enough diversity or flexibility for me, and stock-picking not a viable strategy for my family's savings, I propose hand-crafting as diverse portfolio. I will describe how to do this, and why the software I am providing makes this easier, after a few brief remarks:
+With target date funds not providing enough diversity or flexibility for me, and stock-picking not a viable strategy for my family's savings, I propose hand-crafting a diverse portfolio. I will describe how to do this, offer a sample that you may adopt, and explain why the software I am providing makes this easier, after a few brief remarks:
 
 #### Remark: Margin Accounts
-Margin trading benefits from a tax code that is rigged in favor of the rich: Interest paid on such margin accounts is tax-deductible in Schedule A of the Form 1040, which acts like a discount on the interest equal to one's Federal tax bracket; the more the individual earns, the larger the tax break. But that doesn't mean middle class people would not or should not benefit from exploiting this tax loophole
+Margin trading benefits from a tax code that is rigged in favor of the rich: Interest paid on margin debt is tax-deductible in Schedule A of the Form 1040 as interest paid on taxable assets. This acts like a discount on the interest equal to one's Federal tax bracket; the more the individual earns, the larger the tax break. But that doesn't mean middle class people would not or should not benefit from exploiting this tax loophole.
 
-If you're not comfortable with this, please note that the product described in this post works for unleveraged brokerage accounts. You are also free to maintain the moral high ground and leverage your assets with margin accounts and not deduct the interest.
+Please note that the product described in this post works for unleveraged brokerage accounts as well. Users are also free to maintain the moral high ground and leverage your assets with margin accounts and not deduct the interest, if they feel uncomfortable.
 
 In the context of this post, leveraging what you have and plowing the margins into these low-risk strategies is a multiplier for long-term returns. That is the only benefit.  The cost is the risk of a margin call. I recommend starting very slow with margin trading, borrowing no more than 20% of your assets. This will provide a large enough cushion to avoid a margin call in even an apocalyptic scenario, but talk to a fiduciary certified financial advisor (which I am not) if you have questions.
 
