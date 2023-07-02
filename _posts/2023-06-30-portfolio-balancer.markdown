@@ -37,21 +37,23 @@ Clearly, I don't believe that timing the market or stocking picking are reliable
 [Portfolio Balancer](https://github.com/cfreundlich/portfolio-balancer/)'s currently supported strategies are predicated on the assumption that the investor wants equal distribution of value across all assets in their portfolio.
 
 ### Setting a target
-Investors can pick whatever collection of assets they want, but the general idea is that they span a broad array of sectors and market capitalizations using low cost ETFs, for example, one may want to target 10% allocation to each of these ten ETFs:
-  1. FTEC
-  1. VAW
-  1. VCR
-  1. VDC
-  1. VHT
-  1. VIS
-  1. VNQ
-  1. VOX
-  1. VPU
-  1. VSMAX
+Investors can pick whatever collection of assets they want, but the general idea is that they span a broad array of sectors, equity types, and market capitalizations using low cost ETFs. Diversity is a simple way to minimize risk of any individual crisis. It avoids over-exposure on any area of the economy without stock picking.
 
-Having a broad array of sector and market cap coverage is a simple way to minimize risk of any individual company or sector having a crisis. It avoids over-exposure on any area of the economy, and likewise avoids stock picking.
+One additional consideration is to pick ETFs that represent sections of the economy far away from the area where the investor herself is employed, further de-risking a crisis.
 
-If you inspect the distribution of assets in a target date retirement fund, you will notice less diversity in equity markets than the list of ten that I proposed above.  The list above is by no means complete (notably, it lacks exposure to emerging markets or any fixed income).
+For example, one may want to target 10% allocation to each of these ten ETFs:
+  1. FTEC - Fidelity MSCI Information Technology Index ETF
+  1. VAW - Vanguard Materials Index Fund ETF
+  1. VCR - Vanguard Consumer Discretionary ETF
+  1. VDC - Vanguard Consumer Staples ETF
+  1. VHT - Vanguard Health Care ETF
+  1. VIS - Vanguard Industrials ETF
+  1. VNQ - Vanguard Industrials ETF
+  1. VOX - Vanguard Communication Services ETF
+  1. VPU - Vanguard Utilities ETF
+  1. VSMAX - Vanguard Small-Cap Index Fund Admiral Shares
+
+The list above is by no means complete (notably, it lacks exposure to emerging markets or any fixed income), but if you inspect the distribution of assets in a target date retirement fund, you will notice less diversity in equity markets than the list of ten that I proposed above.  
  
 ### Rebalancing Toward the Target
 The software assumes the user has very recently downloaded their current portfolio positions as a CSV file. Then, the user has two options for how they want to software to suggest trades that would rebalance their portfolio toward a target of equal distribution of assets: 'Hard Rebalance' and 'Try to Never Sell.'
