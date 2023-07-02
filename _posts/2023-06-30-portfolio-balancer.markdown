@@ -5,8 +5,6 @@ date:  2023-06-29 12:36:57 -0800
 toc: true
 ---
 
-# Democratizing Investing: Introducing Portfolio Balancer
-
 For the most part, the the tools once reserved exclusively for the ultra-wealthy are today accessible to common investors. There's no longer a need for human stock brokers or "wealth managers" that siphon 1% of one's savings every year. In this blog post, I will promote a cold, calculated approach to investing and provide a command line interface (CLI) that will tell individual investors exactly how to execute it.
 
 ## A Remark on Margin Accounts
@@ -31,11 +29,10 @@ Trying to time the market, or catch the falling knife, does not work (though I h
 
 
 ## Portfolio Balancer's Strategy
-
 Portfolio Balancer's currently supported strategies are predicated on the assumption that the investor wants equal distribution of value across all assets in their portfolio.
 
 ### Setting a target
-Users can pick whatever collection of assets they want, but the general idea is that they span a broad array of sectors and market capitalizations using low cost ETFs, for example, one may want to target 10% allocation to each of these ten ETFs:
+Investors can pick whatever collection of assets they want, but the general idea is that they span a broad array of sectors and market capitalizations using low cost ETFs, for example, one may want to target 10% allocation to each of these ten ETFs:
   1. FTEC
   1. VAW
   1. VCR
@@ -47,8 +44,7 @@ Users can pick whatever collection of assets they want, but the general idea is 
   1. VPU
   1. VSMAX
 
-Having a broad array of sector and market cap coverage is a simple way to minimize risk of any individual company or sector having a crisis.
-It avoids over-exposure on any area of the economy, and likewise avoids stock picking.
+Having a broad array of sector and market cap coverage is a simple way to minimize risk of any individual company or sector having a crisis. It avoids over-exposure on any area of the economy, and likewise avoids stock picking.
  
 ### Rebalancing Toward the Target
 
