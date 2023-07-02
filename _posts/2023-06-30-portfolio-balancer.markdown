@@ -77,11 +77,11 @@ This is exactly what is done in 'Hard Rebalance' strategy. However, constraining
 
 We can try to approximately solve the system by casting the problem as convex optimization:
 
-*min<sub>x>0</sub> |x-b|*
+*min<sub>x>0</sub> \|x-b\|*
 
 s.t. *x<sub>1</sub> + ... + x<sub>n</sub>=c*,
 
-Where the vector *b* has $i$-th entry equal to *(v+c)/n - p<sub>i</sub>* and *|.|* is any norm.
+Where the vector *b* has *i*-th entry equal to *(v+c)/n - p<sub>i</sub>* and *\|.\|* is any norm.
 
 ### Providing flexibility by factoring in Deposits and Withdrawals
 A key feature of both strategies supported by the Portfolio Balancer is that they offer users the flexibility to specify an amount of cash they wish to invest or withdraw, allowing the software to reallocate funds accordingly. 
