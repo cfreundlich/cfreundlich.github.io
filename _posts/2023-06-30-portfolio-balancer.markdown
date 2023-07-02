@@ -51,7 +51,7 @@ Investors can pick whatever collection of assets they want, but the general idea
 
 Having a broad array of sector and market cap coverage is a simple way to minimize risk of any individual company or sector having a crisis. It avoids over-exposure on any area of the economy, and likewise avoids stock picking.
 
-If you inspect the distribution of assets in a target date retirement fund, you will notice less diversity in equity markets than the list of ten that I proposed above.  The list above is by no means complete (notably is lacks exposure to emerging markets or any fixed income).
+If you inspect the distribution of assets in a target date retirement fund, you will notice less diversity in equity markets than the list of ten that I proposed above.  The list above is by no means complete (notably, it lacks exposure to emerging markets or any fixed income).
  
 ### Rebalancing Toward the Target
 The software assumes the user has very recently downloaded their current portfolio positions as a CSV file. Then, the user has two options for how they want to software to suggest trades that would rebalance their portfolio toward a target of equal distribution of assets: 'Hard Rebalance' and 'Try to Never Sell.'
