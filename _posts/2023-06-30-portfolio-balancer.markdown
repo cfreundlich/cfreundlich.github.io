@@ -26,12 +26,19 @@ For many investors, simply picking a Vangaurd target retirement date fund, parki
 I personally do not think target date funds offer as broad exposure to various sectors and market caps as I would like, increasing short term risk.
 Additionally, investing in one and only one fund limits one's ability to leverage market fluctuations by "buying low and selling high."
 
-
 On the other hand, marketing departments of most banks and brokerages push investors toward a frenzy of stock picking and gamification because higher volumes means higher commissions and profits for them.
 I am not claiming there is anything inherently wrong with gambling, as long as it is done with disposable income.
 I am claiming that stock picking and other gamification approaches to investing are not sound strategies, with professional humans [consistently losing to monkeys](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwitprKq--7_AhUEiO4BHU_fAVUQFnoECA4QAQ&url=https%3A%2F%2Fwww.wsj.com%2Farticles%2FSB991681622136214659&usg=AOvVaw1h5PZgbOQdKpsBhkcSi7hF&opi=89978449).
 
 With target date funds not providing enough diversity or flexibility for me, and stock-picking not a viable strategy for my family's savings, I give you [Portfolio Balancer](https://github.com/cfreundlich/portfolio-balancer/).
+
+
+### A Remark on Trying to Time the Market
+Trying to time the market, or catch the falling knife, does not work (though I have succumbed to the urge many times).
+Similar to stock picking, whatever idea you had, an insider already had it.
+It is priced into the market.
+Having said that, it is up to you how often to balance your portfolio, but I typically do it once per quarter, or randomly.
+I also recommend not looking at your portfolio until you go to rebalance it to avoid making emotional decisions.
 
 
 ## Portfolio Balancer's Strategy
