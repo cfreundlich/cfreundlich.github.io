@@ -10,9 +10,12 @@ toc: true
 For the most part, the the tools once reserved exclusively for the ultra-wealthy are today accessible to common investors. There's no longer a need for human stock brokers or "wealth managers" that siphon 1% of one's savings every year. In this blog post, I will promote a cold, calculated approach to investing and provide a command line interface (CLI) that will tell individual investors exactly how to execute it.
 
 ## A Remark on Margin Accounts
-I am happy with [IBKR's low cost margin trading accounts](https://www.interactivebrokers.com/en/index.php?f=44427&gclid=EAIaIQobChMIicWVrfru_wIVJQ2tBh2P6gkyEAAYASAAEgI6FPD_BwE). Margin trading is particularly rigged in favor of the ultra-wealthy: Interest paid on such margin accounts is tax-deductible in Schedule A of the Form 1040, which acts like a discount on the interest equal to one's Federal tax bracket; the more the individual earns, the larger the tax break. Obviously, there is a big part of me that would like to point out that this is a tax loophole created by the rich for the rich, but rather than take a moral highground here, I will simply shine a spotlight on it. Sunlight is often the best sanitizer.
+Margin trading is particularly rigged in favor of the rich: Interest paid on such margin accounts is tax-deductible in Schedule A of the Form 1040, which acts like a discount on the interest equal to one's Federal tax bracket; the more the individual earns, the larger the tax break. Obviously, there is a big part of me that would like to point out that this is a tax loophole created by the rich for the rich, but rather than take a moral highground here, I will simply shine a spotlight on it. Sunlight is often the best sanitizer.
 
 If you're not comfortable with this kind of morality, note that the product described in this post works well for traditional brokerage accounts; leveraging what you have and plowing the margins into these strategies is just a boost. I recommend starting very slow with margin trading, if you are curious about its benefits. You are also free to claim deductions however you want! I recommend talking to a tax advisor.
+
+For me, I am by no means ultra-wealthy, but I am happy with [IBKR's low cost margin trading accounts](https://www.interactivebrokers.com/en/index.php?f=44427&gclid=EAIaIQobChMIicWVrfru_wIVJQ2tBh2P6gkyEAAYASAAEgI6FPD_BwE).
+IBKR offers the cheapest margin rates I could find.
 
 ## Introducing the Portfolio Balancer
 
