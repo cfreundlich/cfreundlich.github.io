@@ -5,11 +5,11 @@ date:  2023-06-29 12:36:57 -0800
 toc: true
 ---
 
-Today, common investors have access to a complete set of investing tools. There's no longer a need for human stock brokers or "wealth managers" that siphon 1% of one's savings every year. 
-
-In this blog post, I will promote a fundamentals-based approach to using these existing tools, and I will introduce a new tool that will help individual investors execute it.
+Today, common investors have access to a complete set of investing tools. In this blog post, I will promote a fundamentals-based approach to using these existing tools, and I will introduce a new tool that will help individual investors execute it.
 
 ## Introducing the Portfolio Balancer
+
+There's no longer a need for human stock brokers or "wealth managers" that siphon 1% of one's savings every year. The only conceivable reason to retain one of these people is if the investor is completely clueless about how to buy and sell assets using an online tool like ETRADE, which does describe a large swath of the population.
 
 For many investors, simply picking a Vangaurd target retirement date fund, parking all their savings in that, and not thinking about it until they approach that date is a fine strategy. I personally do not think these funds offer as broad exposure to various sectors and market caps as I would like. I also think investing in one and only one fund limits one's ability to exploit market fluctuations by buying low and selling high.
 
