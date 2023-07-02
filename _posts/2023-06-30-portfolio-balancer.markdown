@@ -7,7 +7,7 @@ toc: true
 
 Today, common investors have access to a complete set of investing tools. In this blog post, I will promote a fundamentals-based approach to using these existing tools, and I will introduce a new tool that will help individual investors execute it.
 
-## Introducing the Portfolio Balancer
+## Introduction
 
 There's no longer a need for human stock brokers or "wealth managers" that siphon 1% of one's savings every year. The only conceivable reason to retain one of these people is if the investor is completely clueless about how to buy and sell assets using an online tool like ETRADE, which does describe a large swath of the population.
 
@@ -33,7 +33,7 @@ Trying to time the market does not work (though I have succumbed to the urge man
 #### Remark: Retirement Accounts
 Clearly, I don't believe that timing the market or stocking picking are reliable strategies, so I don't offer any advice for short term investing. The strategies I am promoting here are long-term (more than 10 years). As such, investors generally should take advantage of tax-advantaged retirement accounts first before adopting the strategies promoted in this post. If you are not familiar with accounts like an IRA, 401(k), HSA, or 529s, [educate yourself](https://www.nerdwallet.com/article/investing/retirement-investments-beginners-guide), then come back to this post.
 
-## Portfolio Balancer's Strategies
+## Strategies
 [Portfolio Balancer](https://github.com/cfreundlich/portfolio-balancer/)'s currently supported strategies are predicated on the assumption that the investor wants equal distribution of value across all assets in their portfolio.
 
 ### Setting a target
