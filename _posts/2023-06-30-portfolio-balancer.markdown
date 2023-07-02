@@ -59,16 +59,29 @@ The list above is by no means complete (notably, it lacks exposure to emerging m
 The software assumes the user has very recently downloaded their current portfolio positions as a CSV file. Then, the user has two options for how they want to software to suggest trades that would rebalance their portfolio toward a target of equal distribution of assets: 'Hard Rebalance' and 'Try to Never Sell.'
 
 ### Hard Rebalance
-The 'Hard Rebalance' strategy suggests buying assets that have depreciated (or not appreciated as fast as other assets) and selling assets that have appreciated more than others, bringing your portfolio to a perfectly equal value distribution across assets, despite potential tax liabilities if there were unrealized gains. 
-
-#### Remark: Linear Algebra a Work!
-The Hard Rebalance strategy is the solution to a linear system of equations.
-In particular, if the portfolio as *n* assets, we wish to change the value of each by executing trades.  Let *x<sub>i</sub>* denote the amount we change the *i-th* asset. Let *c* denote the amount cash the investor wants to add (or subtract if withdraw). Then *<**1**, x>=c* constrains our choice not to over- or under-spend. Let *v* denote the total initial value of the portfolio.  Then, to hard rebalance the assets, we desire that *p<sub>i</sub> + x<sub>i</sub> = (v+c)/n*, where *p<sub>i</sub>* is the initial value of the *i-th* asset.  In the code, I rearranged these constraints to formulate a linear system of the form *Ax=b*, and the code solves for *x*.
+The 'Hard Rebalance' strategy suggests buying assets that have depreciated (or not appreciated as fast as other assets) and selling assets that have appreciated more than others, bringing your portfolio to a perfectly equal value distribution across assets, despite potential tax liabilities if there were unrealized gains.  The value of each asset afte rebalancing will be equal to the total value of the portfolio before rebalancing, plus the additional investment if any, divided by the total number of assets in the portfolio.
 
 ### Try to Never Sell
 The 'Try to Never Sell' strategy will only buy assets that have depreciated (or not appreciated as fast as other assets), approaching the target distribution without realizing gains tax. It may not lead to a completely equalized portfolio distribution, but it avoids potential tax implications of the hard rebalance. 
 
-One way to think of this strategy is that it raises the floor of your portfolio, buying low incrementally.  The implementation in the code uses a MinHeap to execute the flood fill.
+One way to think of this strategy is that it raises the floor of your portfolio, buying low incrementally.  The implementation in the code uses a MinHeap to execute the flood fill. 
+
+#### Remark: Convex Optimization
+The flood fill algorithm used by this strategy solves a convex optimization problem.
+
+We want to change the value of each by executing trades.  Let *x<sub>i</sub>* denote the amount we change the *i-th* asset, and *n* denote the number of assets in the portfolio. Let *c* denote the amount cash the investor wants to add (or subtract if withdraw). Then *x<sub>1</sub> + ... + x<sub>n</sub>=c* constrains our choice not to over- or under-spend. Let *v* denote the total initial value of the portfolio and *p<sub>i</sub>* the initial value of the *i-th* asset, so that *p<sub>1</sub> + ... + p<sub>n</sub>=v*. Then, we desire that
+
+*x<sub>i</sub> = (v+c)/n - p<sub>i</sub>*.
+
+This is exactly what is done in 'Hard Rebalance' strategy. However, constraining the strategy to only execute buy transactions, as in the 'Try to Never Sell' strategy, means that all *x<sub>i</sub>* must be nonnegative. One can easily verify that if *(v+c)/n < p<sub>i</sub>*, the target cannot be met.
+
+We can try to approximately solve the system by casting the problem as convex optimization:
+
+*min<sub>x>0</sub> |x-b|*
+
+s.t. *x<sub>1</sub> + ... + x<sub>n</sub>=c*,
+
+Where the vector *b* has $i$-th entry equal to *(v+c)/n - p<sub>i</sub>* and *|.|* is any norm.
 
 ### Providing flexibility by factoring in Deposits and Withdrawals
 A key feature of both strategies supported by the Portfolio Balancer is that they offer users the flexibility to specify an amount of cash they wish to invest or withdraw, allowing the software to reallocate funds accordingly. 
