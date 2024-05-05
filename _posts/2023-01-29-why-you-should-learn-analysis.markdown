@@ -29,7 +29,7 @@ By planning our motion within the bounds of the physical body, we waste less, ju
 This is the concept of holonomy (youtube math nerd video alert: one of my professors, Robert Bryant, gave [this fantastic keynote on the topic](https://www.youtube.com/watch?v=QORRJEkhw6s) several years ago to the American Math Society).
 I think Einstein would agree with Dr. Bryant's claim; it is probably why the most fundamental thing that we have found -- spacetime -- is nothing more than a curved space in which matter and energy are constrained to exist.
 
-If you are now sufficiently motivated to learn geometry, take a look at [my notes from Mark Stern's Basic Analysis lectures at Duke University](../assets/diff-forms.pdf).
+If you are now sufficiently motivated to learn geometry, take a look at [my notes from Mark Stern's Basic Analysis lectures at Duke University](https://s3.us-east-2.amazonaws.com/cfreundlich.github.io/diff-forms.pdf).
 This class (and the others I took from Professors Stern and Bryant) is when my mind really opened up.
 I started to appreciate nature in a more deep, and, I think more profound, way.
 It also helped the algorithms of machine learning, optimization, and computer vision click for me.
