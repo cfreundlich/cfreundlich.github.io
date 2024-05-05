@@ -8,7 +8,7 @@ toc: true
 Here's an embedded video of me playing the Hofner:
 
 <video width="320" height="240" controls>
-  <source src="../assets/output.mp4" type="video/mp4">
+  <source src="https://s3.us-east-2.amazonaws.com/cfreundlich.github.io/output.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
