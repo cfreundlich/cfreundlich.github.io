@@ -5,7 +5,14 @@ date:   2024-05-04 08:00:57 -0800
 toc: true
 ---
 
-Here's an embedded video of me playing the Hofner:
+Here's an embedded video of me playing the Hofner, which does not work for me in 
+Safari but is fine in Chrome.  The problem is definitely with this file, which I created with MacOS PhotoBooth, then imported that in Photos, exported to .mov, then converted to what should be a very highly compatible format with ffmpeg:
+
+```
+fmpeg -i ~/Downloads/hofner.mov -c:v copy -c:a libfdk_aac -ar 48000 -b:a 160k -ac 2 ~/Downloads/hofner.mp4
+```
+
+I will update this post when I figure out what is wrong with this file!
 
 <video width="600" height="400" controls>
   <source src="https://s3.us-east-2.amazonaws.com/cfreundlich.github.io/hofner.mp4" type="video/mp4">
