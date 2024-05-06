@@ -18,15 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Charlie Freundlich
+title: Charlie's Blog
 email: crf29@duck.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Work in progress personal website.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: thefreund
+description: Work in progress personal website.
+baseurl: "" 
+url: "https://cfreundlich.github.io"
+
 github_username:  cfreundlich
-# linkedin_username: charlesfreundlich
+linkedin_username: charlesfreundlich
 
 
 plugins:
@@ -43,8 +42,8 @@ theme: minima
 # Site settings
 permalink: /:title/
 markdown: kramdown
-# paginate: 5
-# paginate_path: "/:num/"
+paginate: 5
+paginate_path: "/:num/"
 date_format: "%b %-d, %Y"
 
 # http://haixing-hu.github.io/programming/2013/09/20/how-to-use-mathjax-in-jekyll-generated-github-pages/
