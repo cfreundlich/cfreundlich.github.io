@@ -18,9 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Charlie's Blog
+title: Charlie Freundlich
 email: crf29@duck.com
-description: Thank you for visiting
 baseurl: "" 
 url: "https://cfreundlich.github.io"
 
@@ -39,8 +38,8 @@ theme: minima
 # Site settings
 permalink: /:title/
 markdown: kramdown
-paginate: 5
-paginate_path: "/:num/"
+# paginate: 5
+# paginate_path: "/:num/"
 date_format: "%b %-d, %Y"
 
 # http://haixing-hu.github.io/programming/2013/09/20/how-to-use-mathjax-in-jekyll-generated-github-pages/
