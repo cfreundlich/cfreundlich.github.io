@@ -20,12 +20,9 @@
 
 title: Charlie's Blog
 email: crf29@duck.com
-description: Work in progress personal website.
+description: Thank you for visiting
 baseurl: "" 
 url: "https://cfreundlich.github.io"
-
-github_username:  cfreundlich
-linkedin_username: charlesfreundlich
 
 
 plugins:
