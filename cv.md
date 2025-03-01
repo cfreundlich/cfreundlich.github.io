@@ -4,9 +4,10 @@ title: Curriculum Vitae
 permalink: /cv/
 ---
 
-I’m a manager, researcher, and software engineer with expertise in distributed systems, computer vision, AI, and automation. 
+I’m a software engineer and senior leader with experience in distributed systems, computer vision, AI, automation, and technical operations. 
 
-I’ve led global teams in supply chain, design, manufacturing, and quality systems, driving innovation and operational excellence. 
+I’ve grown and led global teams to deliver outcomes for supply chain, design, manufacturing, and quality business functions at Tesla.
+<!-- operational excellence.  -->
 
 I’m driven by integrity and curiosity, value transparent communication, and am a committed advocate for climate action and environmental justice.
 
