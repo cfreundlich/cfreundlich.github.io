@@ -4,19 +4,17 @@ title: Curriculum Vitae
 permalink: /cv/
 ---
 
-I’m a software engineer and senior leader with experience in distributed systems, computer vision, AI, automation, and technical operations. 
+I’m a senior software engineering leader with expertise in distributed systems, computer vision, AI, automation, and technical operations. Driven by integrity and curiosity, I prioritize transparent communication and foster collaboration. Beyond technology, I am a dedicated advocate for climate action and environmental justice.
 
 I’ve grown and led 100-person teams over a decade in the US and Europe, delivering several $100M impacts for supply chain, design, manufacturing, and quality business functions at Tesla.
 
-I've learned directly from Tesla's most inspiring and demanding leaders, such as [Jérôme Guillen](https://en.wikipedia.org/wiki/Jérôme_Guillen), [Lars Moravy](https://x.com/larsmoravy?lang=en), [David Lau](https://www.youtube.com/watch?v=ywe_MGd7ZbI&themeRefresh=1), and [Sascha Zhand](https://www.logitech.com/en-us/about/leadership/sascha-zahnd.html?srsltid=AfmBOor8As9bANdh2x4RG0kDiCSIC9M_f7SSueftRfKZUkrGyv8qCyZ9).
+I'm grateful to my mentors, who include some of Tesla's most inspiring and demanding leaders, such as [Jérôme Guillen](https://en.wikipedia.org/wiki/Jérôme_Guillen), [Lars Moravy](https://x.com/larsmoravy?lang=en), [David Lau](https://www.youtube.com/watch?v=ywe_MGd7ZbI&themeRefresh=1), and [Sascha Zhand](https://www.logitech.com/en-us/about/leadership/sascha-zahnd.html?srsltid=AfmBOor8As9bANdh2x4RG0kDiCSIC9M_f7SSueftRfKZUkrGyv8qCyZ9).
+Before Tesla, I studied under many amazing professors, notably my advisor and lifelong friend, [Michael Zavlanos](https://mems.duke.edu/people/michael-zavlanos/).
 
 <!-- I've developed business strategy and  -->
 <!-- operational excellence.  -->
 
-My core values are integrity and curiosity. 
-I prioritize transparent communication.
 
-I am a committed advocate for climate action and environmental justice.
 
 <a href="https://s3.us-east-2.amazonaws.com/cfreundlich.github.io/Freundlich_CV.pdf" download="Freundlich_CV.pdf" style="display: inline-block; padding: 10px 20px; background-color: #007acc; color: white; text-decoration: none; border-radius: 4px; margin-bottom: 10px;">Download My CV</a>
 
