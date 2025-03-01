@@ -12,7 +12,7 @@ I’m driven by integrity and curiosity, value transparent communication, and am
 
 <a href="https://s3.us-east-2.amazonaws.com/cfreundlich.github.io/Freundlich_CV.pdf" download="Freundlich_CV.pdf" style="display: inline-block; padding: 10px 20px; background-color: #007acc; color: white; text-decoration: none; border-radius: 4px; margin-bottom: 10px;">Download My CV</a>
 
-<iframe src="https://s3.us-east-2.amazonaws.com/cfreundlich.github.io/Freundlich_CV.pdf" width="100%" height="800px" style="border: none;"></iframe>
+<!-- <iframe src="https://s3.us-east-2.amazonaws.com/cfreundlich.github.io/Freundlich_CV.pdf" width="100%" height="800px" style="border: none;"></iframe> -->
 
 # Journal Papers
 1. C. Freundlich, S. Lee, and M.M. Zavlanos. [Distributed Active State Estimation With User-Specified Accuracy](https://ieeexplore.ieee.org/abstract/document/7959109/),
