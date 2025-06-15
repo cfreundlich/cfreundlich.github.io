@@ -4,9 +4,7 @@ title: Curriculum Vitae
 permalink: /cv/
 ---
 
-I’m a software engineering leader with expertise in distributed systems, computer vision, AI, automation, and technical operations. I am known at Tesla for radically open written communication, which I have found to be essential to the endless pursuit of operational efficiency. This supports my core values in life: curiosity and authenticity. Beyond technology, I am a dedicated advocate for environmental justice.
-
-I’ve grown and led 100-person teams over a decade in the US and Europe, delivering several $100M impacts for supply chain, design, manufacturing, and quality business functions at Tesla.
+Software engineering executive with a decade of experience leading 100+ person teams across AI, automation, and technical operations. Delivered $100M+ impact by architecting and scaling ML and software systems for design, manufacturing, supply chain, and quality at Tesla. Known for clear, principled communication and building high-performing teams in high-stakes environments.
 
 
 I'm grateful to my mentors, who include some of Tesla's most inspiring and demanding leaders, such as [Jérôme Guillen](https://en.wikipedia.org/wiki/Jérôme_Guillen), [Lars Moravy](https://x.com/larsmoravy?lang=en), [David Lau](https://www.youtube.com/watch?v=ywe_MGd7ZbI&themeRefresh=1), and [Sascha Zhand](https://www.logitech.com/en-us/about/leadership/sascha-zahnd.html?srsltid=AfmBOor8As9bANdh2x4RG0kDiCSIC9M_f7SSueftRfKZUkrGyv8qCyZ9).
