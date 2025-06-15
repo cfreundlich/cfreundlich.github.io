@@ -4,7 +4,7 @@ title: Curriculum Vitae
 permalink: /cv/
 ---
 
-Software engineering executive with a decade of experience leading 100+ person teams across AI, automation, and technical operations. Delivered $100M+ impact by architecting and scaling ML and software systems for design, manufacturing, supply chain, and quality at Tesla. Known for clear, principled communication and building high-performing teams in high-stakes environments.
+Software engineering executive with a decade of experience leading 100+ person teams across AI, automation, and technical operations. Delivered several $100M+ impact projects as head engineer, scaling ML and software systems for design, manufacturing, supply chain, and quality at Tesla. Known for clear, principled communication and building high-performing teams in high-stakes environments.
 
 
 I'm grateful to my mentors, who include some of Tesla's most inspiring and demanding leaders, such as [Jérôme Guillen](https://en.wikipedia.org/wiki/Jérôme_Guillen), [Lars Moravy](https://x.com/larsmoravy?lang=en), [David Lau](https://www.youtube.com/watch?v=ywe_MGd7ZbI&themeRefresh=1), and [Sascha Zhand](https://www.logitech.com/en-us/about/leadership/sascha-zahnd.html?srsltid=AfmBOor8As9bANdh2x4RG0kDiCSIC9M_f7SSueftRfKZUkrGyv8qCyZ9).
