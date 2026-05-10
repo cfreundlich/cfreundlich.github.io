@@ -4,10 +4,10 @@ title: Curriculum Vitae
 permalink: /cv/
 ---
 
-Software engineer with a decade of experience leading 100+ person teams across AI, automation, and technical operations. Leads Tesla’s design technology team, shifting engineering from direct modeling to AI-assisted workflows where engineers supervise intelligent agents. Delivered multiple $100M+ impact initiatives scaling AI systems across design, manufacturing, supply chain, and quality. Known for building high-performing teams and driving adoption of new technologies in high-stakes environments.
+Engineering leader and expert in AI, automation, and technical operations.
+Experience in large scale design, manufacturing, supply chain, and quality from Tesla Model 3 ramp though Optimus and Cybercab. 
 
-I'm grateful to my mentors, who include some of Tesla's most inspiring and demanding leaders, such as [Jérôme Guillen](https://en.wikipedia.org/wiki/Jérôme_Guillen), [Lars Moravy](https://x.com/larsmoravy?lang=en), [David Lau](https://www.youtube.com/watch?v=ywe_MGd7ZbI&themeRefresh=1), and [Sascha Zhand](https://www.logitech.com/en-us/about/leadership/sascha-zahnd.html?srsltid=AfmBOor8As9bANdh2x4RG0kDiCSIC9M_f7SSueftRfKZUkrGyv8qCyZ9).
-Before Tesla, I studied under many amazing professors, notably my advisor and lifelong friend, [Michael Zavlanos](https://mems.duke.edu/people/michael-zavlanos/).
+I'm grateful to my mentors, [Jérôme Guillen](https://en.wikipedia.org/wiki/Jérôme_Guillen), [Lars Moravy](https://x.com/larsmoravy?lang=en), [David Lau](https://www.youtube.com/watch?v=ywe_MGd7ZbI&themeRefresh=1), [Sascha Zhand](https://www.logitech.com/en-us/about/leadership/sascha-zahnd.html?srsltid=AfmBOor8As9bANdh2x4RG0kDiCSIC9M_f7SSueftRfKZUkrGyv8qCyZ9), and [Michael Zavlanos](https://mems.duke.edu/people/michael-zavlanos/).
 
 <!-- I've developed business strategy and  -->
 <!-- operational excellence.  -->
